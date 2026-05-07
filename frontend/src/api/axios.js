@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://shivika-ethara-production.up.railway.app/api', // Adjust in production
+  baseURL: 'https://shivika-ethara-production.up.railway.app/api', // Adjust in production
   headers: {
     'Content-Type': 'application/json',
   },
